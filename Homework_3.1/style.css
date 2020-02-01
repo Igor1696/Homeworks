@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin:  auto;   
+    
+} 
+
+.calendar{
+    width: 700px; 
+    height: 750px; 
+    background-image: url(11809181252371903.jpg);
+}
+
+
+.month{
+    height: 50px;
+    padding: 5px 0px;
+    text-align: center;
+    border: 5px double;
+    font-size: x-large;
+}
+
+.week, .date, .holiday, .today, .dates_outside_the_month {
+    text-align: center;
+    width: 100px; 
+    height: 100px; 
+    float: left; 
+    padding: 35px 0;
+    border: 3.5px double;
+}
+
+.week{
+    font-size: large;
+}
+
+.date{
+    font-size: initial;
+}
+
+.holiday {
+    font-size: large;
+    font-style: oblique;
+    color: rgb(218, 15, 15);
+    font-weight: 900;
+}
+
+.today{
+    background-color: rgb(165, 42, 42);
+    font-size: initial;
+    font-weight: 900;
+}
+
+.dates_outside_the_month{
+    font-size: initial;
+    color: rgb(114, 129, 143);
+}
+
+.date:hover, .today:hover, .holiday:hover{ /*Выделение зелёным цветом - даты, текущего месяца*/
+    color: rgb(3, 148, 3); 
+}
+
+.dates_outside_the_month:hover{ /*Выделение синим цветом - даты, с прошлого или будущего месяцев*/
+    color: rgb(0, 38, 255);
+}
