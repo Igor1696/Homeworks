@@ -1,0 +1,87 @@
+.box{
+    height: 1025px;
+    width: 1280px;
+    background-image: url(./image_homework4/rabochie-oboi-priroda.orig.jpg);
+    position: relative;
+}
+
+.trees, .airplane, .track, .birds, .tree, .moon, .star, .horse, .cross, .hare, .grass, .nameplate{
+    position: absolute;
+}
+
+.trees{    
+    top: 500px;
+    left: 30px;
+    width: 250px;
+}
+
+.airplane{    
+    top: 50px;
+    right: 50px;
+    width: 100px;
+}
+
+.star{
+    top: 170px;
+    left: 500px;
+    width: 350px;
+    z-index: 2;
+}
+
+.track{
+    bottom: 0px;
+    right: 0px;
+    width: 900px;
+    height: 380px;
+}
+
+.birds{
+    width: 300px;
+    left: 531px;
+    top: 300px;
+    z-index: 1;
+}
+
+.tree{   
+    bottom: 519px;
+    right: 530px;
+    width: 150px;
+}
+
+.moon{    
+    bottom: 800px;
+    right: 530px;
+    width: 250px;
+}
+
+.horse{
+    bottom: 450px;
+    left: 350px;
+    width: 40px;
+}
+
+.cross{
+    bottom:540px;
+    right: 54px;
+    width: 20px;
+}
+
+.hare{
+    bottom:195px;
+    left: 195px;
+    width: 40px;    
+}
+
+.grass{
+    bottom:170px;
+    left: 160px;
+    width: 100px;
+    opacity: 0.8;
+}
+
+.nameplate{
+    bottom:365px;
+    right: 640px;
+    width: 40px;    
+}
+
