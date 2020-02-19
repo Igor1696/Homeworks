@@ -1,0 +1,87 @@
+.frame{
+    border: 1px solid black;
+    width: 1000px;
+    margin: 10px auto;
+    padding: 2px;
+}
+
+.table{
+    border: 3px solid black;
+    border-collapse: collapse;
+    width: 1000px;
+}
+
+.table caption{
+    margin: 10px 0;
+}
+
+.table thead tr:first-child th:first-child,
+.table thead tr:first-child th:nth-child(2){
+    border: 3px solid black;
+}
+
+.table thead tr:nth-child(2) th:first-child,
+.table thead tr:nth-child(2) th:nth-child(2),
+.table thead tr:nth-child(2) th:nth-child(3),
+.table thead tr:first-child th:nth-child(4){
+    border-bottom: 3px solid black;
+    width: 130px;
+}
+
+.table thead tr:first-child th:nth-child(4){
+    width: 100px;
+}
+
+.table tbody tr:first-child td:nth-child(3),
+.table tbody tr:nth-child(2) td:nth-child(2),
+.table tfoot tr:first-child td:nth-child(2){
+    border-right: 3px solid black;
+    border-left: 0;
+}
+
+.table thead tr:first-child th:nth-child(2),
+.table tbody tr:first-child td:nth-child(2),
+.table tbody tr:nth-child(2) td:first-child,
+.table tfoot tr:first-child td:nth-child(2){
+    border-left: 0;
+}
+
+.table thead tr:first-child th:first-child,
+.table tbody tr:first-child td:first-child,
+.table tbody tr:first-child td:nth-child(2),
+.table tbody tr:nth-child(2) td:first-child,
+.table tfoot tr:first-child td:first-child{
+    border-right: 0;
+}
+
+.table tbody tr:first-child td:first-child{
+    width: 170px;
+}
+
+.table td, .table th{
+    border: 1px solid #000;
+    height: 40px;
+    vertical-align:top;  
+}
+
+.table thead tr:nth-child(2) th:first-child,
+.table thead tr:nth-child(2) th:nth-child(2),
+.table thead tr:nth-child(2) th:nth-child(3),
+.table thead tr:first-child th:nth-child(4){
+    vertical-align: middle;
+    font-weight: 100;  
+}
+
+.table thead tr:first-child th:nth-child(3){
+    font-weight: 100;
+}
+
+.table thead tr:first-child th:nth-child(4){
+    vertical-align: bottom;
+}
+
+.table tbody tr:first-child td:nth-child(n+4),
+.table tbody tr:nth-child(2) td:nth-child(n+3),
+.table tfoot tr:first-child td:nth-child(n+3){
+    text-align: right;
+}
