@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=cyrillic');
+
+body{
+    background-color: #282828;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.body-content{
+    background-color: #3e3b4a;
+    margin: 0 auto;
+}
+
+.wrapper{
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.header-content,
+.footer_elements{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 55px;
+    padding-bottom: 60px;
+}
+
+.header_menu{
+    background: url(img/menu-i.png) left center no-repeat;
+    padding-left: 30px;  
+    line-height: 22px;
+}
+
+.header_menu a,
+.header_search a{
+ 
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 12px;
+    color: #898691;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px; 
+}
+
+.header_name span{
+    text-decoration: none;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header_name a{
+    text-decoration: none;
+    color: #898691;
+    font-size: 13px;
+    text-transform: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header_search{
+    background: url(img/search-i.png) right center no-repeat;
+    padding-right: 30px;
+    line-height: 22px;
+}
+
+
+
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main_slide1_article-buster-bulb,
+.main_slide2_article-peek,
+.main_slide3_article-leica-d-lux{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 1020px;
+    height: 512px;
+    background-image: url(img/busterbulb.jpg);
+    margin-bottom: 20px;
+    padding-left: 40px;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    
+}
+
+.main_slide_toplink,
+.main_slide_toplink1{
+    text-decoration: none;                          /*Верхние*/
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffc7b0;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+ 
+}
+
+.main_slide_toplink1{
+    padding-top: 35px;
+}
+
+.main_slide1_article-buster-bulb_name,
+.main_slide2_article-peek_name,
+.main_slide3_article-leica-d-lux_name{                             
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.main_slide1_article-buster-bulb_description,
+.main_slide2_article-peek_description,
+.main_slide3_article-leica-d-lux_description{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.main_slide_bottomlink_read-more,
+.main_slide_bottomlink_review{
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
+    padding-right: 6px;
+    height: 42px;
+    text-decoration: none;  
+    font-family: 'Open Sans', sans-serif;                        /*Нижние*/
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    border: 3px solid #ffe18f;
+    margin-top: auto;
+}
+
+.main_slide2_article-peek{
+    width: 622px;
+    height: 484px;
+    background: url(img/peak.png) top right no-repeat;
+    background-color: #75bbc7;
+}
+
+.main_slide2_article-peek_name{
+    font-size: 48px;
+}
+
+.main_slide2_article-peek_description{
+    font-size: 24px;
+}
+
+.main_slide2_article-good-things{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 378px;
+    height: 484px;
+    background-color: #eb7b61;
+}
+
+.main_slide2_article-good-things_name,
+.main_slide2_article-good-things_description{
+    margin: 0;
+    padding-top: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.main_slide2_article-good-things_description{
+    padding-top: 0;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.link-to-email{
+    border: 3px solid #ffd9d1;
+    background: none;
+    height: 42px;  
+    width: 285px;                            
+    font-family: 'Open Sans', sans-serif;                        
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #ffd9d1;
+    margin-bottom: 19px;
+}
+
+.subscribe{
+    height: 42px;
+    width: 285px;  
+    padding-left: 0px;
+    padding-right: 0px;                             
+    border: none;
+    font-family: 'Open Sans', sans-serif;                        
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 19px;
+    background-color: #66689c;
+}
+
+.main_slide2_article-good-things_description1{
+    margin: 0;
+    padding-bottom: 70px;
+    font-family: 'Open Sans', sans-serif;                        
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.main_slide3_article-leicam,
+.main_slide3_article-trobla-amplifier{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 260px;
+    height: 420px;
+    background-image: url(img/leicam.jpg);
+    padding-bottom: 40px;
+}
+
+.main_slide3_article-leicam_name,
+.main_slide3_article-trobla-amplifier_name{
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+}
+
+.main_slide_bottomlink_review{
+    margin-top: 0;
+    background-color: #ffe18e;
+    color: #625b57;
+}
+
+.main_slide3_article-trobla-amplifier{
+    background-image: url(img//troblaamplifie.jpg);
+}
+
+.main_slide3_article-leica-d-lux{
+    margin: 0;
+    width: 460px;
+    height: 420px;
+    background: url(img/leicad.png) bottom right no-repeat;
+    background-color: #1ab467;
+}
+
+.main_slide3_article-leica-d-lux_name{
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+.main_slide3_article-leica-d-lux_description{
+    font-size: 20px;
+}
+
+
+
+
+.footer_elements_copiright-link{
+    text-decoration: none;
+    font-size: 14px;
+    color: #898691;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.footer_elements_facebook_img{
+    text-decoration: none;
+}
+
+.footer_elements_twitter_img{
+    padding-left: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
