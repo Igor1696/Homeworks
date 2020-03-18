@@ -1,0 +1,215 @@
+@media screen and (max-width: 1024px){
+    .main_slide2_article-peek{
+        flex:1 1 calc(60% - 20px);
+        margin-right: 20px;
+    }
+
+    .main_slide2_article-good-things{
+        flex:1 1 calc(40% - 20px);
+    }
+ 
+
+    .main_slide3_article-leicam,
+    .main_slide3_article-trobla-amplifier{
+        flex:1 1 calc(25% - 20px);
+        margin-right: 20px;
+    }
+
+    .main_slide3_article-leica-d-lux{
+        flex:1 1 calc(50% - 20px);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .main_slide1_article-buster-bulb_name{
+        font-size: 54px;                    
+    }
+
+    .main_slide1_article-buster-bulb_description{
+        font-size: 27px;                        
+    }
+
+    .main_slide2_article-peek_name {
+        font-size: 40px;
+    }
+
+    .main_slide2_article-peek_description,
+    .main_slide3_article-leica-d-lux_description{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .main_slide2_article-good-things_name{
+        font-size: 34px;                        
+    }
+
+    .main_slide2_article-good-things_description{
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+
+    .link-to-email,
+    .subscribe{
+        width: 180px;
+        margin-bottom: 0px;
+    }
+    .subscribe{
+        margin-bottom: 19px;
+    }
+
+    .main_slide2_article-good-things_description1{
+        font-size: 12px;
+    }
+
+    .main_slide3_article-leicam_name, 
+    .main_slide3_article-trobla-amplifier_name,
+    .main_slide3_article-leica-d-lux_name{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .header_name span{
+        font-size: 45px;
+        padding-left: 8px;
+    }
+   
+    .main_slide1_article-buster-bulb,
+    .main_slide2_article-peek,
+    .main_slide3_article-leica-d-lux{
+        align-items: center;
+        padding-left: 0px;
+    }
+
+    .main_slide1_article-buster-bulb_name{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .main_slide1_article-buster-bulb_description {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .main_slide2_article-peek{
+        flex-basis: 100%;        
+        margin-right: 0px;                  
+    }
+
+    .main_slide2_article-good-things{
+        flex-basis: 100%;         
+        margin-bottom: 20px;
+    }
+
+    .main_slide2_article-good-things_name{
+        font-size: 40px;
+        padding-top: 60px;
+    }
+
+    .main_slide2_article-good-things_description{
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+
+    .link-to-email,
+    .subscribe{
+        width: 285px;
+        margin-bottom: 19px;
+    }
+
+    .main_slide2_article-good-things_description1{
+        font-size: 14px;
+    }
+
+    .main_slide3_article-trobla-amplifier{
+        margin-right: 0px;
+    }
+
+    .main_slide3_article-leica-d-lux{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .header_menu a,
+    .header_search a{
+        font-size: 0px;             
+    }
+
+    .header_name span{
+        font-size: 40px;
+        padding-left: 12px;
+    }
+
+    .main_slide_toplink{
+        font-size: 12px;
+    }
+
+    .main_slide_toplink1{
+        font-size: 12px;
+    }
+
+    .main_slide1_article-buster-bulb_name{
+        font-size: 35px;
+    }
+
+    .main_slide1_article-buster-bulb_description,
+    .main_slide2_article-peek_description,
+    .main_slide3_article-leica-d-lux_description{
+        font-size: 15px;
+    }
+
+    .main_slide_bottomlink_read-more{
+        font-size: 15px;
+    }
+
+    .main_slide_bottomlink_review{
+        font-size: 15px;
+    }
+
+    .main_slide2_article-peek_name{
+        font-size: 35px;
+    }
+
+    .link-to-email, 
+    .subscribe{
+        width: 250px;
+    }
+
+    .main_slide2_article-good-things_name{
+        font-size: 35px;
+    }
+    
+    .main_slide3_article-leicam,
+    .main_slide3_article-trobla-amplifier{
+        flex-basis: 100%;
+        background-size: cover;        
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .main_slide3_article-leicam_name,
+    .main_slide3_article-trobla-amplifier_name{
+        font-size: 25px;
+    }
+
+    .main_slide3_article-leica-d-lux{
+        margin-top: 0px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
